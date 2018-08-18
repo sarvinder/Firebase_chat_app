@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.login.firebase_chat_app.UI.ConversationListActivity;
 import com.example.login.firebase_chat_app.UI.HomeActivity;
 
 import butterknife.ButterKnife;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.launch)
     public void launchMessenger(View view){
 
-        startActivity(new Intent(this, HomeActivity.class));
+        startActivity(new Intent(this, ConversationListActivity.class));
 
     }
 
